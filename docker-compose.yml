@@ -15,12 +15,12 @@ services:
       REDIS_URL: redis://cache:6379
     build: ./dndapi-backend
     ports:
-      - '3000:40000'
+      - '40000:3000'
     depends_on:
       - db
       - cache
   
   frontend:
     build: ./dndapi-frontend
-    ports: 
-      - '5000:40001'
+    ports:
+      - '40001:5000'
