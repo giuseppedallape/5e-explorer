@@ -1,7 +1,6 @@
 services:
   db:
-    image: 5e-db:latest
-    # build: ../5e-database
+    build: ./dndapi-database
     ports:
       - '27017:27017'
 
@@ -14,9 +13,14 @@ services:
     environment:
       MONGODB_URI: mongodb://db/5e-database
       REDIS_URL: redis://cache:6379
-    build: .
+    build: ./dndapi-backend
     ports:
-      - '3000:3000'
+      - '3000:40000'
     depends_on:
       - db
       - cache
+  
+  frontend:
+    build: ./dndapi-frontend
+    ports: 
+      - '5173:40001'
