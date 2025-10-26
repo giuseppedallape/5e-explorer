@@ -1,0 +1,154 @@
+[
+  {
+    "index": "blinded",
+    "name": "Accecato",
+    "desc": [
+      "- Una creatura accecata non può vedere e fallisce automaticamente qualsiasi prova di abilità che richieda la vista.",
+      "- I tiri per colpire contro la creatura hanno vantaggio, e i tiri per colpire della creatura hanno svantaggio."
+    ],
+    "url": "/api/2014/conditions/blinded"
+  },
+  {
+    "index": "charmed",
+    "name": "Affascinato",
+    "desc": [
+      "- Una creatura affascinata non può attaccare l'incantatore né bersagliarlo con abilità dannose o effetti magici.",
+      "- L'incantatore ha vantaggio su qualsiasi prova di abilità per interagire socialmente con la creatura."
+    ],
+    "url": "/api/2014/conditions/charmed"
+  },
+  {
+    "index": "deafened",
+    "name": "Assordato",
+    "desc": [
+      "- Una creatura assordata non può sentire e fallisce automaticamente qualsiasi prova di abilità che richieda l'udito."
+    ],
+    "url": "/api/2014/conditions/deafened"
+  },
+  {
+    "index": "frightened",
+    "name": "Spaventato",
+    "desc": [
+      "- Una creatura spaventata ha svantaggio nelle prove di abilità e nei tiri per colpire mentre la fonte della sua paura è entro la linea di vista.",
+      "- La creatura non può muoversi volontariamente avvicinandosi alla fonte della sua paura."
+    ],
+    "url": "/api/2014/conditions/frightened"
+  },
+  {
+    "index": "grappled",
+    "name": "Afferrato",
+    "desc": [
+      "- La velocità di una creatura afferrata diventa 0, e non può beneficiare di alcun bonus alla sua velocità.",
+      "- La condizione termina se chi l'ha afferrata è incapacitato (vedi la condizione).",
+      "- La condizione termina anche se un effetto rimuove la creatura afferrata dalla portata di chi l'ha afferrata o dall'effetto che l'ha afferrata, come quando una creatura viene scagliata via dall'incantesimo onda tonante."
+    ],
+    "url": "/api/2014/conditions/grappled"
+  },
+  {
+    "index": "incapacitated",
+    "name": "Incapacitato",
+    "desc": ["- Una creatura incapacitata non può compiere azioni o reazioni."],
+    "url": "/api/2014/conditions/incapacitated"
+  },
+  {
+    "index": "invisible",
+    "name": "Invisibile",
+    "desc": [
+      "- Una creatura invisibile è impossibile da vedere senza l'aiuto della magia o di un senso speciale. Ai fini del nascondersi, la creatura è pesantemente oscurata. La posizione della creatura può essere rilevata da qualsiasi rumore emetta o da qualsiasi traccia lasci.",
+      "- I tiri per colpire contro la creatura hanno svantaggio, e i tiri per colpire della creatura hanno vantaggio."
+    ],
+    "url": "/api/2014/conditions/invisible"
+  },
+  {
+    "index": "paralyzed",
+    "name": "Paralizzato",
+    "desc": [
+      "- Una creatura paralizzata è incapacitata (vedi la condizione) e non può muoversi o parlare.",
+      "- La creatura fallisce automaticamente i tiri salvezza su Forza e Destrezza.",
+      "- I tiri per colpire contro la creatura hanno vantaggio.",
+      "- Qualsiasi attacco che colpisce la creatura è un colpo critico se l'attaccante si trova entro 5 piedi dalla creatura."
+    ],
+    "url": "/api/2014/conditions/paralyzed"
+  },
+  {
+    "index": "petrified",
+    "name": "Pietrificato",
+    "desc": [
+      "- Una creatura pietrificata è trasformata, insieme a qualsiasi oggetto non magico che indossa o trasporta, in una sostanza solida inanimata (solitamente pietra). Il suo peso aumenta di dieci volte e smette di invecchiare.",
+      "- La creatura è incapacitata (vedi la condizione), non può muoversi o parlare ed è ignara di ciò che la circonda.",
+      "- I tiri per colpire contro la creatura hanno vantaggio.",
+      "- La creatura fallisce automaticamente i tiri salvezza su Forza e Destrezza.",
+      "- La creatura ha resistenza a tutti i danni.",
+      "- La creatura è immune a veleno e malattie, anche se un veleno o una malattia già presenti nel suo sistema vengono sospesi, non neutralizzati."
+    ],
+    "url": "/api/2014/conditions/petrified"
+  },
+  {
+    "index": "poisoned",
+    "name": "Avvelenato",
+    "desc": [
+      "- Una creatura avvelenata ha svantaggio nei tiri per colpire e nelle prove di abilità."
+    ],
+    "url": "/api/2014/conditions/poisoned"
+  },
+  {
+    "index": "prone",
+    "name": "Prono",
+    "desc": [
+      "- L'unica opzione di movimento di una creatura prona è strisciare, a meno che non si alzi e quindi termini la condizione.",
+      "- La creatura ha svantaggio nei tiri per colpire.",
+      "- Un tiro per colpire contro la creatura ha vantaggio se l'attaccante si trova entro 5 piedi dalla creatura. Altrimenti, il tiro per colpire ha svantaggio."
+    ],
+    "url": "/api/2014/conditions/prone"
+  },
+  {
+    "index": "restrained",
+    "name": "Immobilizzato",
+    "desc": [
+      "- La velocità di una creatura immobilizzata diventa 0, e non può beneficiare di alcun bonus alla sua velocità.",
+      "- I tiri per colpire contro la creatura hanno vantaggio, e i tiri per colpire della creatura hanno svantaggio.",
+      "- La creatura ha svantaggio nei tiri salvezza su Destrezza."
+    ],
+    "url": "/api/2014/conditions/restrained"
+  },
+  {
+    "index": "stunned",
+    "name": "Stordito",
+    "desc": [
+      "- Una creatura stordita è incapacitata (vedi la condizione), non può muoversi e può parlare solo a fatica.",
+      "- La creatura fallisce automaticamente i tiri salvezza su Forza e Destrezza.",
+      "- I tiri per colpire contro la creatura hanno vantaggio."
+    ],
+    "url": "/api/2014/conditions/stunned"
+  },
+  {
+    "index": "unconscious",
+    "name": "Incosciente",
+    "desc": [
+      "- Una creatura incosciente è incapacitata (vedi la condizione), non può muoversi o parlare ed è ignara di ciò che la circonda.",
+      "- La creatura lascia cadere ciò che sta tenendo e cade prona.",
+      "- La creatura fallisce automaticamente i tiri salvezza su Forza e Destrezza.",
+      "- I tiri per colpire contro la creatura hanno vantaggio.",
+      "- Qualsiasi attacco che colpisce la creatura è un colpo critico se l'attaccante si trova entro 5 piedi dalla creatura."
+    ],
+    "url": "/api/2014/conditions/unconscious"
+  },
+  {
+    "index": "exhaustion",
+    "name": "Esaurimento",
+    "desc": [
+      "Alcune capacità speciali e pericoli ambientali, come la fame e gli effetti a lungo termine di temperature gelide o torride, possono portare a una condizione speciale chiamata esaurimento. L'esaurimento è misurato in sei livelli. Un effetto può conferire a una creatura uno o più livelli di esaurimento, come specificato nella descrizione dell'effetto.",
+      "1 - Svantaggio nelle prove di abilità",
+      "2 - Velocità dimezzata",
+      "3 - Svantaggio nei tiri per colpire e nei tiri salvezza",
+      "4 - Massimo dei punti ferita dimezzato",
+      "5 - Velocità ridotta a 0",
+      "6 - Morte",
+      "Se una creatura già esausta subisce un altro effetto che causa esaurimento, il suo livello attuale di esaurimento aumenta della quantità specificata nella descrizione dell'effetto.",
+      "Una creatura subisce l'effetto del suo livello attuale di esaurimento, nonché di tutti i livelli inferiori. Per esempio, una creatura che subisce un esaurimento di livello 2 ha la sua velocità dimezzata e ha svantaggio nelle prove di abilità.",
+      "Un effetto che rimuove l'esaurimento ne riduce il livello come specificato nella descrizione dell'effetto, con tutti gli effetti dell'esaurimento che terminano se il livello di esaurimento di una creatura si riduce al di sotto di 1.",
+      "Terminare un riposo lungo riduce il livello di esaurimento di una creatura di 1, a condizione che la creatura abbia anche ingerito cibo e bevande."
+    ],
+    "url": "/api/2014/conditions/exhaustion"
+  }
+]

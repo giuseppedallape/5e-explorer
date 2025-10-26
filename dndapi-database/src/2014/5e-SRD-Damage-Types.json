@@ -1,0 +1,106 @@
+[
+  {
+    "index": "acid",
+    "name": "Acido",
+    "desc": [
+      "Lo spruzzo corrosivo del soffio di un drago nero e gli enzimi dissolventi secreti da un budino nero infliggono danni da acido."
+    ],
+    "url": "/api/2014/damage-types/acid"
+  },
+  {
+    "index": "bludgeoning",
+    "name": "Contundente",
+    "desc": [
+      "Attacchi a forza bruta, cadute, costrizioni e simili infliggono danni contundenti."
+    ],
+    "url": "/api/2014/damage-types/bludgeoning"
+  },
+  {
+    "index": "cold",
+    "name": "Freddo",
+    "desc": [
+      "Il gelo infernale che irradia dalla lancia di un diavolo del ghiaccio e l'esplosione gelida del soffio di un drago bianco infliggono danni da freddo."
+    ],
+    "url": "/api/2014/damage-types/cold"
+  },
+  {
+    "index": "fire",
+    "name": "Fuoco",
+    "desc": [
+      "I draghi rossi sputano fuoco, e molti incantesimi evocano fiamme per infliggere danni da fuoco."
+    ],
+    "url": "/api/2014/damage-types/fire"
+  },
+  {
+    "index": "force",
+    "name": "Forza",
+    "desc": [
+      "La forza è energia magica pura focalizzata in una forma dannosa. La maggior parte degli effetti che infliggono danni da forza sono incantesimi, inclusi dardo incantato e arma spirituale."
+    ],
+    "url": "/api/2014/damage-types/force"
+  },
+  {
+    "index": "lightning",
+    "name": "Fulmine",
+    "desc": [
+      "Un incantesimo fulmine e il soffio di un drago blu infliggono danni da fulmine."
+    ],
+    "url": "/api/2014/damage-types/lightning"
+  },
+  {
+    "index": "necrotic",
+    "name": "Necrotico",
+    "desc": [
+      "Il danno necrotico, inflitto da certi non morti e da un incantesimo come tocco gelido, fa appassire la materia e persino l'anima."
+    ],
+    "url": "/api/2014/damage-types/necrotic"
+  },
+  {
+    "index": "piercing",
+    "name": "Perforante",
+    "desc": [
+      "Attacchi perforanti e che impalano, inclusi lance e morsi di mostri, infliggono danni perforanti."
+    ],
+    "url": "/api/2014/damage-types/piercing"
+  },
+  {
+    "index": "poison",
+    "name": "Veleno",
+    "desc": [
+      "Le punture velenose e il gas tossico del soffio di un drago verde infliggono danni da veleno."
+    ],
+    "url": "/api/2014/damage-types/poison"
+  },
+  {
+    "index": "psychic",
+    "name": "Psichico",
+    "desc": [
+      "Abilità mentali come un'esplosione psionica infliggono danni psichici."
+    ],
+    "url": "/api/2014/damage-types/psychic"
+  },
+  {
+    "index": "radiant",
+    "name": "Radiante",
+    "desc": [
+      "Il danno radiante, inflitto dall'incantesimo colpo infuocato di un chierico o dall'arma punitrice di un angelo, scotta la carne come fuoco e sovraccarica lo spirito di potere."
+    ],
+    "url": "/api/2014/damage-types/radiant"
+  },
+  {
+    "index": "slashing",
+    "name": "Tagliente",
+    "desc": [
+      "Spade, asce e artigli di mostri infliggono danni taglienti."
+    ],
+    "url": "/api/2014/damage-types/slashing"
+  },
+  {
+    "index": "thunder",
+    "name": "Tuono",
+    "desc": [
+      "Un'esplosione concussiva di suono, come l'effetto dell'incantesimo onda tonante, infligge danni da tuono."
+    ],
+    "url": "/api/2014/damage-types/thunder"
+  }
+]

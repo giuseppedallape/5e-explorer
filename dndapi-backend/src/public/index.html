@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>D&D 5e API</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="D&D 5th Edition API" />
+    <meta name="description" content="REST API to access D&D 5th Edition SRD database" />
+    <meta name="keywords" content="Dungeons, Dragons, 5th, Edition, API, SRD" />
+    <meta name="theme-color" content="#D81921" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.dnd5eapi.co/" />
+    <meta property="og:title" content="D&D 5th Edition API" />
+    <meta property="og:description" content="REST API to access D&D 5th Edition SRD database" />
+    <meta property="og:image" content="/public/DnD-5e-meta-4k.png" />
+
+
+    <link rel="stylesheet" href="/css/custom.css" />
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+
+    <!-- Main Content -->
+    <section id="home">
+      <div class="header">
+        <h1>D&D 5e API</h1>
+        <h2>API per la quinta edizione di Dungeons and Dragons</h2>
+        <p>! Attenzione non ancora tutto tradotto !</p>
+      </div>
+
+
+      <div class="content">
+        <div class="interactive-section">
+          <h1>Prova una chiamata:</h1>
+          <div class="api-input">
+            <span class="api-prefix">https://dndapi.fromtheb.ee/api/2014/</span>
+            <input id="interactive" type="text" placeholder="classes/barbarian/" />
+            <button onclick="interactiveCall();return false;">Invia</button>
+          </div>
+
+          <div class="hints">
+            Prova con:
+            <a href="#" onClick="update('classes/');return false;">classes/</a>,
+            <a href="#" onClick="update('features/');return false;">features/</a>,
+            <a href="#" onClick="update('monsters/adult-black-dragon/');return false;"
+              >monsters/adult-black-dragon/</a
+            >
+            o
+            <a href="#" onClick="update('classes/barbarian');return false;"
+              >classes/?name=barbarian</a
+            >
+          </div>
+
+          <p class="result-label">Info per <span id="interactive_name">Barbaro</span></p>
+          <pre id="interactive_output" class="output"></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Replace old scripts with modern JS -->
+    <script>
+      // Update input field and trigger API call
+      function update(call) {
+        document.getElementById('interactive').value = call
+        interactiveCall()
+      }
+
+      // Make API call and update the output
+      async function interactiveCall() {
+        const input = document.getElementById('interactive')
+        const nameSpan = document.getElementById('interactive_name')
+        const output = document.getElementById('interactive_output')
+
+        let content = input.value
+        if (!content) {
+          content = 'classes/barbarian/'
+        }
+
+        try {
+          const response = await fetch('api/' + content)
+
+          if (response.ok) {
+            const data = await response.json()
+            nameSpan.textContent = data.name ? `${data.name}:` : 'questa richiesta:'
+            output.textContent = JSON.stringify(data, null, 2)
+          } else {
+            output.textContent = `${response.status} ${response.statusText}`
+          }
+        } catch (err) {
+          output.textContent = 'Error: ' + err.message
+        }
+      }
+
+      // Initialize with default data
+      document.addEventListener('DOMContentLoaded', interactiveCall)
+    </script>
+
+  </body>
+</html>

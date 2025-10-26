@@ -1,0 +1,65 @@
+[
+    {
+        "index": "lawful-good",
+        "name": "Legale Buono",
+        "abbreviation": "LB",
+        "desc": "Ci si può fidare che le creature legali buone (LB) facciano la cosa giusta come previsto dalla società. I draghi dorati, i paladini e la maggior parte dei nani sono legali buoni.",
+        "url": "/api/2014/alignments/lawful-good"
+    },
+    {
+        "index": "neutral-good",
+        "name": "Neutrale Buono",
+        "abbreviation": "NB",
+        "desc": "Le creature neutrali buone (NB) fanno del loro meglio per aiutare gli altri secondo le loro necessità. Molti celestiali, alcuni giganti delle nuvole e la maggior parte degli gnomi sono neutrali buoni.",
+        "url": "/api/2014/alignments/neutral-good"
+    },
+    {
+        "index": "chaotic-good",
+        "name": "Caotico Buono",
+        "abbreviation": "CB",
+        "desc": "Le creature caotiche buone (CB) agiscono come la loro coscienza suggerisce, con poca considerazione per ciò che gli altri si aspettano. I draghi di rame, molti elfi e gli unicorni sono caotici buoni.",
+        "url": "/api/2014/alignments/chaotic-good"
+    },
+    {
+        "index": "lawful-neutral",
+        "name": "Legale Neutrale",
+        "abbreviation": "LN",
+        "desc": "Gli individui legali neutrali (LN) agiscono in accordo con la legge, la tradizione o codici personali. Molti monaci e alcuni maghi sono legali neutrali.",
+        "url": "/api/2014/alignments/lawful-neutral"
+    },
+    {
+        "index": "neutral",
+        "name": "Neutrale",
+        "abbreviation": "N",
+        "desc": "Neutrale (N) è l'allineamento di coloro che preferiscono tenersi alla larga da questioni morali e non prendono parti, facendo ciò che sembra meglio al momento. I lucertoloidi, la maggior parte dei druidi e molti umani sono neutrali.",
+        "url": "/api/2014/alignments/neutral"
+    },
+    {
+        "index": "chaotic-neutral",
+        "name": "Caotico Neutrale",
+        "abbreviation": "CN",
+        "desc": "Le creature caotiche neutrali (CN) seguono i loro capricci, tenendo la loro libertà personale sopra ogni altra cosa. Molti barbari e ladri, e alcuni bardi, sono caotici neutrali.",
+        "url": "/api/2014/alignments/chaotic-neutral"
+    },
+    {
+        "index": "lawful-evil",
+        "name": "Legale Malvagio",
+        "abbreviation": "LM",
+        "desc": "Le creature legali malvagie (LM) prendono metodicamente ciò che vogliono, entro i limiti di un codice di tradizione, lealtà o ordine. I diavoli, i draghi blu e gli hobgoblin sono legali malvagi.",
+        "url": "/api/2014/alignments/lawful-evil"
+    },
+    {
+        "index": "neutral-evil",
+        "name": "Neutrale Malvagio",
+        "abbreviation": "NM",
+        "desc": "Neutrale malvagio (NM) è l'allineamento di coloro che fanno tutto ciò che possono per farla franca, senza compassione o scrupoli. Molti drow, alcuni giganti delle nuvole e i goblin sono neutrali malvagi.",
+        "url": "/api/2014/alignments/neutral-evil"
+    },
+    {
+        "index": "chaotic-evil",
+        "name": "Caotico Malvagio",
+        "abbreviation": "CM",
+        "desc": "Le creature caotiche malvagie (CM) agiscono con violenza arbitraria, spinte dalla loro avidità, odio o brama di sangue. I demoni, i draghi rossi e gli orchi sono caotici malvagi.",
+        "url": "/api/2014/alignments/chaotic-evil"
+    }
+]

@@ -1,0 +1,22 @@
+services:
+  db:
+    image: 5e-db:latest
+    # build: ../5e-database
+    ports:
+      - '27017:27017'
+
+  cache:
+    image: redis:6.2.5
+    ports:
+      - '6379:6379'
+
+  api:
+    environment:
+      MONGODB_URI: mongodb://db/5e-database
+      REDIS_URL: redis://cache:6379
+    build: .
+    ports:
+      - '3000:3000'
+    depends_on:
+      - db
+      - cache

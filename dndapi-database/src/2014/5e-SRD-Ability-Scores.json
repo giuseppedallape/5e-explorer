@@ -1,0 +1,163 @@
+[
+  {
+    "index": "str",
+    "name": "FOR",
+    "full_name": "Forza",
+    "desc": [
+      "La Forza rappresenta la prestanza fisica, l'addestramento atletico e la capacità di esercitare la pura potenza fisica.",
+      "Una prova di Forza entra in gioco ogni volta che si tenta di sollevare, spingere, tirare o rompere qualcosa, di farsi strada con la forza attraverso un passaggio, o in generale di applicare la forza bruta in una determinata situazione. L'abilità Atletica indica la predisposizione a superare determinati tipi di prove di Forza."
+    ],
+    "skills": [
+      {
+        "name": "Atletica",
+        "index": "athletics",
+        "url": "/api/2014/skills/athletics"
+      }
+    ],
+    "url": "/api/2014/ability-scores/str"
+  },
+  {
+    "index": "dex",
+    "name": "DES",
+    "full_name": "Destrezza",
+    "desc": [
+      "La Destrezza misura l'agilità, i riflessi e l'equilibrio.",
+      "Una prova di Destrezza può rappresentare qualsiasi tentativo di muoversi con agilità, rapidità o furtività, oppure di evitare cadute su terreni insidiosi. Le abilità Acrobazia, Rapidità di Mano e Furtività indicano una particolare predisposizione in specifici tipi di prove di Destrezza."
+    ],
+    "skills": [
+      {
+        "name": "Acrobazia",
+        "index": "acrobatics",
+        "url": "/api/2014/skills/acrobatics"
+      },
+      {
+        "name": "Rapidità di Mano",
+        "index": "sleight-of-hand",
+        "url": "/api/2014/skills/sleight-of-hand"
+      },
+      {
+        "name": "Furtività",
+        "index": "stealth",
+        "url": "/api/2014/skills/stealth"
+      }
+    ],
+    "url": "/api/2014/ability-scores/dex"
+  },
+  {
+    "index": "con",
+    "name": "COS",
+    "full_name": "Costituzione",
+    "desc": [
+      "La Costituzione misura la salute, la resistenza e la forza vitale.",
+      "Le prove di Costituzione non sono comuni e nessuna abilità specifica si applica ad esse. Questo perché la tempra rappresentata da questa caratteristica è per lo più passiva, piuttosto che richiedere uno sforzo specifico da parte di un personaggio o di un mostro."
+    ],
+    "skills": [],
+    "url": "/api/2014/ability-scores/con"
+  },
+  {
+    "index": "int",
+    "name": "INT",
+    "full_name": "Intelligenza",
+    "desc": [
+      "L'Intelligenza misura l'acutezza mentale, la precisione dei ricordi e la capacità di ragionamento.",
+      "Una prova di Intelligenza entra in gioco quando è necessario ricorrere alla logica, all'istruzione, alla memoria o al ragionamento deduttivo. Le abilità Arcano, Indagare, Natura, Religione e Storia riflettono l'attitudine in certi tipi di prove di Intelligenza."
+    ],
+    "skills": [
+      {
+        "name": "Arcano",
+        "index": "arcana",
+        "url": "/api/2014/skills/arcana"
+      },
+      {
+        "name": "Indagare",
+        "index": "investigation",
+        "url": "/api/2014/skills/investigation"
+      },
+      {
+        "name": "Natura",
+        "index": "nature",
+        "url": "/api/2014/skills/nature"
+      },
+      {
+        "name": "Religione",
+        "index": "religion",
+        "url": "/api/2014/skills/religion"
+      },
+      {
+        "name": "Storia",
+        "index": "history",
+        "url": "/api/2014/skills/history"
+      }
+    ],
+    "url": "/api/2014/ability-scores/int"
+  },
+  {
+    "index": "wis",
+    "name": "SAG",
+    "full_name": "Saggezza",
+    "desc": [
+      "La Saggezza riflette quanto sei in sintonia con il mondo che ti circonda e rappresenta la percettività e l'intuizione.",
+      "Una prova di Saggezza potrebbe riflettere uno sforzo per leggere il linguaggio del corpo, comprendere i sentimenti di qualcuno, notare dettagli dell'ambiente o prendersi cura di una persona ferita. Le abilità Addestrare Animali, Intuizione, Medicina, Percezione e Sopravvivenza riflettono l'attitudine in certi tipi di prove di Saggezza."
+    ],
+    "skills": [
+      {
+        "name": "Addestrare Animali",
+        "index": "animal-handling",
+        "url": "/api/2014/skills/animal-handling"
+      },
+      {
+        "name": "Intuizione",
+        "index": "insight",
+        "url": "/api/2014/skills/insight"
+      },
+      {
+        "name": "Medicina",
+        "index": "medicine",
+        "url": "/api/2014/skills/medicine"
+      },
+      {
+        "name": "Percezione",
+        "index": "perception",
+        "url": "/api/2014/skills/perception"
+      },
+      {
+        "name": "Sopravvivenza",
+        "index": "survival",
+        "url": "/api/2014/skills/survival"
+      }
+    ],
+    "url": "/api/2014/ability-scores/wis"
+  },
+  {
+    "index": "cha",
+    "name": "CAR",
+    "full_name": "Carisma",
+    "desc": [
+      "Il Carisma misura la tua capacità di interagire efficacemente con gli altri. Include fattori come la sicurezza in sé e l'eloquenza, e può rappresentare una personalità affascinante o imponente.",
+      "Una prova di Carisma potrebbe verificarsi quando cerchi di influenzare o intrattenere gli altri, quando tenti di fare colpo o raccontare una bugia convincente, o quando ti trovi in una situazione sociale complicata. Le abilità Inganno, Intimidire, Intrattenere e Persuasione riflettono l'attitudine in certi tipi di prove di Carisma."
+    ],
+    "skills": [
+      {
+        "name": "Inganno",
+        "index": "deception",
+        "url": "/api/2014/skills/deception"
+      },
+      {
+        "name": "Intimidire",
+        "index": "intimidation",
+        "url": "/api/2014/skills/intimidation"
+      },
+      {
+        "name": "Intrattenere",
+        "index": "performance",
+        "url": "/api/2014/skills/performance"
+      },
+      {
+        "name": "Persuasione",
+        "index": "persuasion",
+        "url": "/api/2014/skills/persuasion"
+      }
+    ],
+    "url": "/api/2014/ability-scores/cha"
+  }
+]
